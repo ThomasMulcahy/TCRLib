@@ -1,5 +1,5 @@
 # Tom's C Rendering Library
-TCRLib <s>is<s> will be a multi-purpose rendering library, mainly for the C programming language. Currently 
+TCRLib <s>is</s> will be a multi-purpose rendering library, mainly for the C programming language. Currently 
 it is in it's infancy, but will consist of a multitude of features once complete.
 
 Currently it is a heavy WIP. Although some of the main features it will include are:
