@@ -15,5 +15,6 @@ HEADERS=$(wildcard $(SRC_DIR)/*.h)
 all: $(TARGET)
 
 $(TARGET): ${SOURCES}
+	mkdir -p $(BUILD_DIR)
 	$(CC) $(CFLAGS) $(OBJC_FLAGS) -O2 $(SOURCES) $(OBJC_SOURCES) -o $(BUILD_DIR)/$@.dylib
 
